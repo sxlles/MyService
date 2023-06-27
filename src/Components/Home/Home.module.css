@@ -1,0 +1,2130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --white: #f8f8f8;
+  --dark: #0a0908;
+  --blue: #0a3dc2;
+  --cinza: #cacaca;
+  --cinzaClaro: #e9e9e9;
+  --azul: #1e52d5;
+  --azulescuro: #072f94;
+  --branco: #fff;
+}
+
+.Blue2 {
+  color: var(--azul);
+}
+
+.Blue {
+  color: var(--blue);
+}
+
+.Black {
+  color: var(--dark);
+}
+
+.White {
+  color: var(--white);
+}
+
+.Cinza {
+  color: var(--cinza);
+}
+
+.CinzaClaro {
+  color: var(--cinzaClaro);
+}
+
+/* My Service */
+
+@media (max-width: 480px) {
+  .LogoContainer {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 14px !important;
+    left: 30px !important;
+    height: 20px !important;
+  }
+
+  .Header {
+    height: 50px !important;
+    position: fixed !important;
+  }
+
+  .MyService {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 48px !important;
+
+    line-height: 40px !important;
+    text-align: center !important;
+
+    top: 120px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    width: 320px !important;
+  }
+
+  .Oque {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 80px !important;
+    text-align: center !important;
+
+    top: 380px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    width: 250px !important;
+  }
+}
+
+.LogoContainer {
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 29px;
+  left: 300px;
+  height: 35px;
+}
+
+.Header {
+  justify-content: center;
+  background-color: var(--white);
+  height: 100px;
+  position: fixed;
+  display: block;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 0px 5px 5px rgba(9, 9, 8, 0.1);
+}
+
+.MyService {
+  width: 550px;
+  right: 180px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+
+  line-height: 55px;
+  text-align: left;
+
+  color: var(--blue);
+
+  position: absolute;
+  left: 300px;
+  top: 280px;
+}
+
+.Oque {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  text-align: left;
+
+  color: var(--cinza);
+
+  position: absolute;
+  width: 420px;
+  height: 168px;
+  left: 300px;
+  top: 507px;
+}
+
+/* Conheça nos*/
+
+@media (max-width: 480px) {
+  .ConhecaNos {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 46px !important;
+
+    line-height: 40px !important;
+    text-align: center !important;
+
+    top: 620px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    width: 320px !important;
+  }
+
+  .ParaOb {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 85px !important;
+    text-align: center !important;
+
+    top: 840px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    width: 250px !important;
+  }
+
+  .SaibaMais {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 6.21951px 15.5488px !important;
+
+    position: absolute !important;
+    width: 87.1px !important;
+    height: 25.44px !important;
+    left: 150px !important;
+    top: 980px !important;
+
+    border-radius: 15.54808px !important;
+
+    width: 115.46px !important;
+    height: 33.59px !important;
+
+    font-family: "Roboto" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+
+    flex: none !important;
+    order: 0 !important;
+    flex-grow: 0 !important;
+  }
+}
+
+.ConhecaNos {
+  width: 550px;
+  right: 150px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+
+  line-height: 55px;
+  text-align: left;
+
+  color: var(--blue);
+
+  position: absolute;
+  left: 300px;
+  top: 770px;
+}
+
+.ParaOb {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  text-align: left;
+
+  color: var(--cinza);
+
+  position: absolute;
+  width: 420px;
+  height: 168px;
+  left: 300px;
+  top: 1005px;
+}
+
+.SaibaMais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8.29268px 20.7317px;
+
+  position: absolute;
+  width: 130px;
+  height: 44px;
+  left: 300px;
+  top: 1155px;
+
+  border: none;
+  background: var(--blue);
+  border-radius: 14px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+
+  color: var(--white);
+}
+
+/* Figuras adicionais */
+
+.FigureContainer {
+  content: "";
+  height: 15px;
+  width: 185px;
+  display: block;
+  position: absolute;
+  top: 1955px;
+  left: 850px;
+
+  background-color: var(--white);
+}
+
+.FigureAzul {
+  content: "";
+  height: 15px;
+  width: 155px;
+  display: block;
+  position: absolute;
+
+  z-index: 999;
+
+  transform: rotate(90deg);
+
+  top: 4195px;
+  right: 945px;
+
+  background-color: var(--azulescuro);
+}
+
+.FigureAzulC {
+  content: "";
+  height: 15px;
+  width: 155px;
+  display: block;
+  position: absolute;
+
+  z-index: 999;
+
+  transform: rotate(90deg);
+
+  top: 3390px;
+  left: 205px;
+
+  background-color: var(--azul);
+}
+
+.AzulContainer {
+  height: 155px;
+  width: 155px;
+  display: block;
+  transform: rotate(25deg);
+  position: absolute;
+  top: 2205px;
+  left: 815px;
+}
+
+.BrancoContainer {
+  height: 105px;
+  width: 105px;
+  transform: rotate(25deg);
+  display: block;
+  position: absolute;
+  top: 1360px;
+  left: 917px;
+}
+
+.Aspas1 {
+  display: block;
+  position: absolute;
+  top: -68px;
+  right: 525px;
+}
+
+.Aspas2 {
+  display: block;
+  position: absolute;
+  top: -68px;
+  right: 525px;
+}
+
+.Aspas3 {
+  display: block;
+  position: absolute;
+  top: -68px;
+  right: 525px;
+}
+
+.Quadrado {
+  width: 436px;
+  height: 310px;
+  right: 280px;
+  position: absolute;
+  top: 3940px;
+
+  border-radius: 30.298px;
+  background: var(--blue);
+  box-shadow: 0px 6.312057018280029px 8.205673217773438px 0px
+    rgba(0, 0, 0, 0.17);
+
+  z-index: -999;
+}
+
+/* My Service User */
+
+@media (max-width: 480px) {
+  .BaixeOApp {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 30px !important;
+
+    line-height: 35px !important;
+    text-align: center !important;
+
+    top: 1230px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .InformacaoDoApp {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 85px !important;
+    text-align: center !important;
+
+    top: 1350px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    width: 250px !important;
+  }
+
+  .Baixe {
+    position: absolute;
+    width: 233px !important;
+    height: 17px !important;
+    left: 125px !important;
+    top: 1450px !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+  }
+
+  .CliqueAquiUser {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 6.21951px 15.5488px !important;
+
+    position: absolute !important;
+    width: 87.1px !important;
+    height: 25.44px !important;
+    left: 160px !important;
+    top: 1470px !important;
+
+    border-radius: 15.54808px !important;
+
+    width: 100px !important;
+    height: 30px !important;
+
+    font-family: "Roboto" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+
+    flex: none !important;
+    order: 0 !important;
+    flex-grow: 0 !important;
+  }
+
+  .Mulher {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: -6.35px !important;
+    width: 100% !important;
+    top: 1565px !important;
+    height: 305px !important;
+  }
+
+  .BackgroundMulher {
+    top: 1170px !important;
+    height: 400px !important;
+  }
+
+  .BrancoContainer {
+    height: 65px !important;
+    width: 65px !important;
+    transform: rotate(25deg) !important;
+    display: block !important;
+    position: absolute !important;
+    top: 1530px !important;
+    left: 40px !important;
+  }
+}
+
+.BaixeOApp {
+  width: 550px;
+  right: 150px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+
+  line-height: 55px;
+  text-align: left;
+
+  color: var(--white);
+
+  position: absolute;
+  left: 300px;
+  top: 1397px;
+}
+
+.InformacaoDoApp {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  text-align: left;
+
+  color: var(--branco);
+
+  position: absolute;
+  width: 550px;
+  height: 168px;
+  left: 300px;
+  top: 1630px;
+}
+
+.Baixe {
+  position: absolute;
+  width: 233px;
+  height: 17px;
+  left: 300px;
+  top: 1783px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  color: var(--cinzaClaro);
+}
+
+.CliqueAquiUser {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8.29268px 20.7317px;
+
+  position: absolute;
+  width: 130px;
+  height: 44px;
+  left: 300px;
+  top: 1802px;
+
+  border: none;
+  background: var(--white);
+  border-radius: 14px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+
+  color: var(--blue);
+}
+
+.Mulher {
+  display: flex;
+  margin: 0 auto;
+  top: 1300px;
+  height: 662px;
+  right: 0px;
+  padding: 0;
+
+  position: absolute;
+
+  z-index: -99;
+}
+
+.BackgroundMulher {
+  display: flex;
+  margin: 0 auto;
+  top: 1300px;
+  width: 100%;
+  height: 662px;
+  padding: 0;
+
+  position: relative;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: var(--azul);
+
+  z-index: -999;
+}
+
+/* My Service Work */
+
+@media (max-width: 480px) {
+  .FigureContainer {
+    content: "" !important;
+    height: 10px !important;
+    width: 105px !important;
+    display: block !important;
+    position: absolute !important;
+    top: 1865px !important;
+    left: 160px !important;
+
+    background-color: var(--blue) !important;
+  }
+
+  .BaixeOWork {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 30px !important;
+
+    line-height: 35px !important;
+    text-align: center !important;
+
+    top: 2240px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .InformacaoDoWork {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 90px !important;
+    text-align: center !important;
+
+    top: 2390px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    width: 250px !important;
+  }
+
+  .BaixeWork {
+    position: absolute;
+    width: 233px !important;
+    height: 17px !important;
+    left: 140px !important;
+    top: 2485px !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+  }
+
+  .CliqueAquiWork {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 6.21951px 15.5488px !important;
+
+    position: absolute !important;
+    width: 87.1px !important;
+    height: 25.44px !important;
+    left: 160px !important;
+    top: 2505px !important;
+
+    border-radius: 15.54808px !important;
+
+    width: 100px !important;
+    height: 30px !important;
+
+    font-family: "Roboto" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+
+    flex: none !important;
+    order: 0 !important;
+    flex-grow: 0 !important;
+  }
+
+  .Homem {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: -1.55px !important;
+    width: 100% !important;
+    top: 1870px !important;
+    height: 305px !important;
+  }
+
+  .BackgroundHomem {
+    top: 1775px !important;
+    height: 420px !important;
+  }
+
+  .AzulContainer {
+    height: 65px !important;
+    width: 65px !important;
+    transform: rotate(25deg) !important;
+    display: block !important;
+    position: absolute !important;
+    top: 2150px !important;
+    left: 40px !important;
+  }
+}
+
+.BaixeOWork {
+  width: 680px;
+  right: 150px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+
+  line-height: 55px;
+  text-align: right;
+
+  color: var(--white);
+
+  position: absolute;
+  right: 300px;
+  top: 2052px;
+}
+
+.InformacaoDoWork {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  text-align: right;
+
+  color: var(--branco);
+
+  position: absolute;
+  width: 550px;
+  height: 168px;
+  right: 300px;
+  top: 2332px;
+}
+
+.BaixeWork {
+  position: absolute;
+  width: 210px;
+  height: 17px;
+  right: 300px;
+  top: 2482px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  color: var(--cinzaClaro);
+}
+
+.CliqueAquiWork {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8.29268px 20.7317px;
+
+  position: absolute;
+  width: 130px;
+  height: 44px;
+  right: 300px;
+  top: 2503px;
+
+  border: none;
+  background: var(--white);
+  border-radius: 14px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+
+  color: var(--blue);
+}
+
+.Homem {
+  display: flex;
+  margin: 0 auto;
+  top: 1962px;
+  height: 662px;
+  left: 0px;
+  padding: 0;
+
+  position: absolute;
+
+  z-index: -99;
+}
+
+.BackgroundHomem {
+  display: flex;
+  margin: 0 auto;
+  top: 1300px;
+  width: 100%;
+  height: 662px;
+  padding: 0;
+
+  position: relative;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: var(--azulescuro);
+
+  z-index: -999;
+}
+
+/* Premium */
+
+@media (max-width: 480px) {
+  .Aproveite {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 30px !important;
+
+    line-height: 35px !important;
+    text-align: center !important;
+
+    top: 2680px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .InformacaoPremium {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 85px !important;
+    text-align: center !important;
+
+    top: 2820px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    width: 250px !important;
+  }
+
+  .Aspas1 {
+    display: block !important;
+    position: absolute !important;
+    top: -80px !important;
+    left: 0px !important;
+  }
+
+  .Bronze {
+    position: absolute;
+    width: 333px !important;
+    height: 17px !important;
+    left: 40px !important;
+    top: 3495px !important;
+
+    text-align: left !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+  }
+
+  .Aspas2 {
+    display: block !important;
+    position: absolute !important;
+    top: -80px !important;
+    left: 0px !important;
+  }
+
+  .Prata {
+    position: absolute;
+    width: 333px !important;
+    height: 17px !important;
+    left: 40px !important;
+    top: 3740px !important;
+
+    text-align: left !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+  }
+
+  .Aspas3 {
+    display: block !important;
+    position: absolute !important;
+    top: -80px !important;
+    left: 0px !important;
+  }
+
+  .Diamante {
+    position: absolute;
+    width: 333px !important;
+    height: 17px !important;
+    left: 40px !important;
+    top: 4000px !important;
+
+    text-align: left !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+  }
+
+  .Escolha {
+    position: absolute;
+    width: 333px !important;
+    height: 17px !important;
+    left: 40px !important;
+    top: 4230px !important;
+
+    text-align: center !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+  }
+
+  .PremiumImg img {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: -240px !important;
+    top: -145px !important;
+    height: 405px;
+  }
+
+  .FigureAzulC {
+    content: "" !important;
+    height: 10px !important;
+    width: 105px !important;
+    display: block !important;
+    position: absolute !important;
+    top: 3370px !important;
+    left: 160px !important;
+
+    transform: rotate(0deg) !important;
+  }
+}
+
+.Aproveite {
+  position: absolute;
+  width: 1006px;
+  height: 165px;
+  left: 441px;
+  top: 2725px;
+
+  text-align: center;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 55px;
+
+  color: var(--blue);
+}
+
+.InformacaoPremium {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  text-align: center;
+
+  color: var(--dark);
+
+  position: absolute;
+  width: 760px;
+  height: 72px;
+  left: 568px;
+  top: 2890px;
+}
+
+.PremiumImg {
+  display: block;
+  position: absolute;
+  top: 3070px;
+  left: 370px;
+}
+
+.Bronze {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+
+  text-align: right;
+
+  color: var(--cinza);
+
+  position: absolute;
+  width: 600px;
+  height: 72px;
+  right: 300px;
+  top: 3180px;
+}
+
+.Prata {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+
+  text-align: right;
+
+  color: var(--cinza);
+
+  position: absolute;
+  width: 600px;
+  height: 96px;
+  right: 300px;
+  top: 3370px;
+}
+
+.Diamante {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+
+  text-align: right;
+
+  color: var(--cinza);
+
+  position: absolute;
+  width: 600px;
+  height: 96px;
+  right: 300px;
+  top: 3580px;
+}
+
+.Escolha {
+  position: absolute;
+  width: 540px;
+  height: 60px;
+  left: 678px;
+  top: 3760px;
+
+  text-align: center;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  color: var(--dark);
+}
+
+/* Conheça Nos */
+
+@media (max-width: 480px) {
+  .SaibaSobre {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 30px !important;
+
+    line-height: 35px !important;
+    text-align: center !important;
+
+    top: 4340px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .QuemSomos {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: -10px !important;
+    text-align: center !important;
+
+    top: 320px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    width: 250px !important;
+  }
+
+  .Somos {
+    position: absolute;
+    width: 363px !important;
+    height: 17px !important;
+    left: 40px !important;
+    top: 4135px !important;
+
+    text-align: center !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+
+  .Missao {
+    position: absolute;
+    width: 363px !important;
+    height: 17px !important;
+    left: 40px !important;
+    top: 4203px !important;
+
+    text-align: center !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+
+  .Objetivo {
+    position: absolute;
+    width: 363px !important;
+    height: 17px !important;
+    left: 40px !important;
+    top: 4410px !important;
+
+    text-align: center !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+
+  .GrupoContainer {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 160px !important;
+    width: 100px !important;
+    top: 4850px !important;
+    height: 205px !important;
+  }
+
+  .FigureAzul {
+    content: "" !important;
+    height: 8px !important;
+    width: 75px !important;
+    display: block !important;
+    position: absolute !important;
+    top: 4948px !important;
+    left: 29px !important;
+  }
+
+  .Quadrado {
+    width: 155px;
+    left: 215px;
+    position: absolute;
+    top: 4845px !important;
+    height: 110px !important;
+
+    border-radius: 12px;
+    box-shadow: 0px 6.312057018280029px 8.205673217773438px 0px
+      rgba(0, 0, 0, 0.17);
+
+    z-index: -999;
+  }
+}
+
+.SaibaSobre {
+  width: 410px;
+  right: 165px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+
+  line-height: 60px;
+  text-align: left;
+
+  color: var(--dark);
+
+  position: absolute;
+  left: 300px;
+  top: 3940px;
+}
+
+.Somos {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+
+  text-align: left;
+
+  color: var(--cinza);
+
+  position: absolute;
+  width: 420px;
+  height: 48px;
+  left: 300px;
+  top: 4193px;
+}
+
+.Missao {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+
+  text-align: left;
+
+  color: var(--cinza);
+
+  position: absolute;
+  width: 420px;
+  height: 144px;
+  left: 300px;
+  top: 4248px;
+}
+
+.Objetivo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+
+  text-align: left;
+
+  color: var(--cinza);
+
+  position: absolute;
+  width: 420px;
+  height: 70px;
+  left: 300px;
+  top: 4403px;
+}
+
+.GrupoContainer {
+  display: flex;
+  top: 3950px;
+  right: 300px;
+
+  position: absolute;
+}
+
+/* O porq deste tema */
+
+@media (max-width: 480px) {
+  .OPorque {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 30px !important;
+
+    line-height: 35px !important;
+    text-align: center !important;
+
+    top: 5215px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .Escolhemos {
+    position: absolute;
+    width: 363px !important;
+    height: 17px !important;
+    left: 27px !important;
+    top: 5345px !important;
+
+    text-align: center !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+
+  .Autonomos {
+    position: absolute;
+    width: 363px !important;
+    height: 17px !important;
+    left: 27px !important;
+    top: 5525px !important;
+
+    text-align: center !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+
+  .Background {
+    top: 4315px !important;
+    height: 620px !important;
+  }
+}
+
+.OPorque {
+  width: 550px;
+  right: 165px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+
+  line-height: 60px;
+  text-align: left;
+
+  color: var(--white);
+
+  position: absolute;
+  left: 300px;
+  top: 4687px;
+}
+
+.Escolhemos {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+
+  text-align: left;
+
+  color: var(--branco);
+
+  position: absolute;
+  width: 650px;
+  height: 48px;
+  left: 300px;
+  top: 4998px;
+}
+
+.Autonomos {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+
+  text-align: left;
+
+  color: var(--branco);
+
+  position: absolute;
+  width: 650px;
+  height: 48px;
+  left: 300px;
+  top: 5100px;
+}
+
+.Background {
+  position: relative;
+  width: 100%;
+  height: 720px;
+  left: 0px;
+  top: 3280px;
+
+  background: var(--azulescuro);
+  z-index: -99;
+}
+
+/* Rede sociais */
+
+@media (max-width: 480px) {
+  .RedesSociais img {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: -40px !important;
+    top: 480px !important;
+    height: 300px;
+  }
+
+  .ExploreNaRede {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 30px !important;
+
+    line-height: 35px !important;
+    text-align: center !important;
+
+    top: 6170px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .ExploreNaRede h2 {
+    position: absolute;
+    width: 363px !important;
+    height: 17px !important;
+    left: -6px !important;
+    top: 95px !important;
+
+    text-align: center !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+  }
+
+  .Figure {
+    content: "" !important;
+    height: 5px !important;
+    width: 85px !important;
+    display: block !important;
+    position: absolute !important;
+    top: 5825px !important;
+    left: 160px !important;
+
+    transform: rotate(0deg) !important;
+  }
+}
+
+.SecundariaContainer {
+  z-index: -999;
+}
+
+.RedesSociais {
+  box-shadow: #0a0908;
+  position: absolute;
+  right: 300px;
+  top: 5368px;
+}
+
+.ExploreNaRede {
+  width: 550px;
+  right: 165px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+
+  line-height: 60px;
+  text-align: left;
+
+  color: var(--dark);
+
+  position: absolute;
+  left: 300px;
+  top: 5530px;
+}
+
+.ExploreNaRede h2 {
+  position: absolute;
+  width: 335px;
+  height: 37px;
+  top: 220px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+
+  color: var(--cinza);
+}
+
+.Figure {
+  content: "";
+  height: 15px;
+  width: 185px;
+  display: block;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 5650px;
+  left: 850px;
+
+  background-color: var(--blue);
+}
+
+/*Partcipantes do projeto*/
+
+@media (max-width: 480px) {
+  .QuemE {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 30px !important;
+
+    line-height: 35px !important;
+    text-align: center !important;
+
+    top: 6450px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .Aspas4 {
+    display: block !important;
+    position: absolute !important;
+    top: -70px !important;
+    left: 52px !important;
+  }
+
+  .Camily {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: -15px !important;
+
+    line-height: 35px !important;
+    text-align: left !important;
+
+    top: 6640px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .Camily h4 {
+    position: absolute;
+    width: 333px !important;
+    height: 17px !important;
+    left: 54px !important;
+    top: 40px !important;
+
+    text-align: left !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+
+  .Aspas5 {
+    display: block !important;
+    position: absolute !important;
+    top: -70px !important;
+    left: 67px !important;
+  }
+
+  .Emerson {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: -30px !important;
+
+    line-height: 35px !important;
+    text-align: left !important;
+
+    top: 7000px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .Emerson h4 {
+    position: absolute;
+    width: 333px !important;
+    height: 17px !important;
+    left: 74px !important;
+    top: 40px !important;
+
+    text-align: left !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+
+  .Aspas6 {
+    display: block !important;
+    position: absolute !important;
+    top: -70px !important;
+    left: 52px !important;
+  }
+
+  .Joao {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: -10px !important;
+
+    line-height: 35px !important;
+    text-align: left !important;
+
+    top: 7355px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .Joao h4 {
+    position: absolute;
+    width: 333px !important;
+    height: 17px !important;
+    left: 54px !important;
+    top: 40px !important;
+
+    text-align: left !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+
+  .Aspas7 {
+    display: block !important;
+    position: absolute !important;
+    top: -70px !important;
+    left: 85px !important;
+  }
+
+  .Jose {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: -45px !important;
+
+    line-height: 35px !important;
+    text-align: left !important;
+
+    top: 7645px !important;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+
+  .Jose h4 {
+    position: absolute;
+    width: 333px !important;
+    height: 17px !important;
+    left: 92px !important;
+    top: 40px !important;
+
+    text-align: left !important;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+
+  .BackgroundCinza {
+    top: 4925px !important;
+    height: 1631px !important;
+  }
+}
+
+.QuemE {
+  width: 370px;
+  right: 65px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+
+  text-align: center;
+
+  color: var(--dark);
+
+  position: absolute;
+  left: 700px;
+  top: 6140px;
+}
+
+.Aspas4 {
+  display: block;
+  position: absolute;
+  top: -68px;
+  right: 333px;
+}
+
+.Aspas5 {
+  display: block;
+  position: absolute;
+  top: -68px;
+  right: 333px;
+}
+
+.Aspas6 {
+  display: block;
+  position: absolute;
+  top: -68px;
+  right: 333px;
+}
+
+.Aspas7 {
+  display: block;
+  position: absolute;
+  top: -68px;
+  right: 280px;
+}
+
+.Camily {
+  width: 415px;
+  right: 65px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+
+  text-align: left;
+
+  color: var(--dark);
+
+  position: absolute;
+  left: 400px;
+  top: 6380px;
+}
+
+.Camily h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  text-align: left;
+
+  color: var(--blue);
+
+  position: absolute;
+  width: 415px;
+  height: 120px;
+  top: 60px;
+}
+
+.Emerson {
+  width: 415px;
+  right: 65px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+
+  text-align: right;
+
+  color: var(--dark);
+
+  position: absolute;
+  right: 400px;
+  top: 6380px;
+}
+
+.Emerson h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  text-align: right;
+
+  color: var(--blue);
+
+  position: absolute;
+  width: 415px;
+  height: 150px;
+  top: 60px;
+}
+
+.Joao {
+  width: 415px;
+  right: 65px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+
+  text-align: left;
+
+  color: var(--dark);
+
+  position: absolute;
+  left: 400px;
+  top: 6740px;
+}
+
+.Joao h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  text-align: left;
+
+  color: var(--blue);
+
+  position: absolute;
+  width: 415px;
+  height: 120px;
+  top: 60px;
+}
+
+.Jose {
+  width: 430px;
+  right: 65px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+
+  text-align: right;
+
+  color: var(--dark);
+
+  position: absolute;
+  right: 400px;
+  top: 6740px;
+}
+
+.Jose h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  text-align: right;
+
+  color: var(--blue);
+
+  right: 0px;
+
+  position: absolute;
+  width: 480px;
+  height: 150px;
+  top: 60px;
+}
+
+.BackgroundCinza {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  left: 0px;
+  top: 4000px;
+
+  background: var(--white);
+  z-index: -99;
+}
+
+/* Footer */
+
+@media (max-width: 480px) {
+    .LogoBContainer {
+      justify-content: center !important;
+      display: flex !important;
+      position: absolute !important;
+      width: 100px !important;
+      top: 8061px !important;
+      left: 160px !important;
+    }
+  
+    .Informacoes {
+      position: absolute !important;
+      width: 350px !important;
+      height: 140px !important;
+      left: 35px !important;
+      top: 8160px !important;
+  
+      font-family: 'Roboto' !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 14px !important;
+      line-height: 8px !important;
+      display: flex !important;
+      align-items: center !important;
+      text-align: center !important;
+  
+      flex-direction: column !important;
+    }
+  
+    .Entre {
+      position: absolute !important;
+      left: 135px !important;
+      top: 8380px !important;
+  
+      font-family: 'Roboto' !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 20px !important;
+      line-height: 8px !important;
+      display: flex !important;
+      align-items: center !important;
+      text-align: center !important;
+  
+      flex-direction: column !important;
+    }
+  
+    .Redes {
+      justify-content: center !important;
+      display: flex !important;
+      position: absolute !important;
+      width: 100% !important;
+      top: 8400px !important;
+      left: 0px !important;
+    }
+  
+    .Service {
+      justify-content: center !important;
+      display: flex !important;
+      height: 32px !important;
+      position: absolute !important;
+      left: 200px !important;
+      top: 8480px !important;
+    }
+  
+    .Contatos {
+      top: -8px !important;
+      left: 15px !important;
+      justify-content: center !important;
+    }
+  
+    .EmailIcon {
+      justify-content: center !important;
+      display: flex !important;
+      position: absolute !important;
+      left: 105px !important;
+      top: 8565px !important;
+      height: 25px !important;
+    }
+  
+    .Email {
+      position: absolute !important;
+      left: 135px !important;
+      top: 8573px !important;
+  
+      font-family: 'Roboto' !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 14px !important;
+      line-height: 8px !important;
+      display: flex !important;
+      align-items: center !important;
+      text-align: center !important;
+  
+      flex-direction: column !important;
+    }
+  
+    .Direitos {
+      position: absolute !important;
+      left: 110px !important;
+      top: 8635px !important;
+      height: 20px !important;
+  
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 12px !important;
+      line-height: 18px !important;
+      display: flex !important;
+      align-items: center !important;
+      text-align: center !important;
+    }
+  
+  .BackgrounFooter {
+    top: 4925px !important;
+    height: 460px !important;
+  }
+
+  .BackgroundRodaPe {
+    top: 4925px !important;
+    height: 220px !important;
+  }
+}
+
+.FooterContainer {
+  z-index: -999;
+}
+
+.LogoBContainer {
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 32.48px;
+  left: 0px;
+  top: 7130px;
+}
+
+.Informacoes {
+  position: absolute;
+  width: 50%;
+  left: 500px;
+  top: 7240px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+
+  color: var(--white);
+}
+
+.Entre {
+  position: absolute;
+  left: 830px;
+  top: 7345px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+
+  color: var(--white);
+}
+
+.Redes {
+  position: absolute;
+  height: 18.01px;
+  left: 885px;
+  top: 7370px;
+  margin-right: 1em;
+}
+
+.Whatsapp span {
+  margin-right: 1em;
+}
+
+.Instagram span {
+  margin-right: 1em;
+}
+
+.Twitter span {
+  margin-right: 1em;
+}
+
+.Service {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 300px;
+  top: 7458px;
+}
+
+.Contatos {
+  position: absolute;
+  top: 0px;
+  left: 85px;
+  white-space: nowrap;
+}
+
+.EmailIcon {
+  height: 10px;
+  position: absolute;
+  left: 720px;
+  top: 7473px;
+}
+
+.Email {
+  position: absolute;
+  left: 760px;
+  top: 7480px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: var(--white);
+}
+
+.Direitos {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  right: 300px;
+  top: 7470px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+
+  text-align: right;
+
+  color: var(--white);
+}
+
+.BackgrounFooter {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  left: 0px;
+  top: 4000px;
+
+  background: var(--blue);
+  z-index: -999;
+}
+
+.BackgroundRodaPe {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  left: 0px;
+  top: 4000px;
+
+  background: var(--azul);
+  z-index: -999;
+}
